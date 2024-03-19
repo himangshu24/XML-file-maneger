@@ -1,0 +1,12 @@
+<p style="color: white"><%= notice %></p>
+
+<h1>Files </h1>
+
+<div id="resumes">
+  <% @resumes.each do |resume| %>
+    <%= render resume %>
+    
+  <% end %>
+</div>
+
+<%= link_to "Add File", new_resume_path, class:"btn" %>

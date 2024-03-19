@@ -1,0 +1,31 @@
+<div id="<%= dom_id resume %>">
+<%# <p>
+    <strong>File name:</strong>
+    <%= resume.file_name %>
+  <%# </p>
+  <p>
+    <strong>File:</strong>
+<%= link_to 'Download', download_resume_path(resume) %>
+  <%# </p> %> 
+
+
+</div>
+<table class="table table-hover table-primary table-bordered">
+  <thead>
+    <tr>
+      <th class="table-dark" scope="col">File name</th>
+      <th class="table-dark" scope="col">File</th>
+      <th class="table-dark" scope="col">Show</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td><%= resume.file_name %></td>
+      <td><%= link_to 'Download', download_resume_path(resume) , class:"list_btn" %>
+      <td><%= link_to "Show", resume, class:"list_btn" %></td>
+
+      </tr>
+    
+  </tbody>
+</table>

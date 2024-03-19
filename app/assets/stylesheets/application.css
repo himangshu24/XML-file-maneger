@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    font-family: 'poppins',sans-serif;
+
+ }
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 36, 40);
+    color: aliceblue;
+    
+    }
+    .hero{
+        margin: 10px;
+        padding: 0 50px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        height: 50%;
+        width: 50%;
+        text-align: center;
+        background-image:linear-gradient(to bottom right, rgb(68, 136, 174), rgb(35, 36, 40));
+        margin: auto;
+        padding: 10px;
+        box-shadow: 0px 12px 22px rgba(255, 255, 255, 0.1);
+    
+    }
+    .navber{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 10px 30px;
+        color: aliceblue;
+        background-image: linear-gradient(#fff0,#304851);
+        border-radius: 30px;
+        box-shadow:0px 10px 22px rgba(255, 255, 255, 0.1);
+    }
+    h6{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .a{
+        margin: 0 20px 0 10px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .a:hover{
+        text-decoration:underline;
+    }
+    .btn_s{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: aliceblue;
+        padding: 0 10px;
+        border: 1px solid white;
+        margin: 2px;
+    }
+    
+    .fild{
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 90%;
+        background-color: transparent;
+        color: aliceblue;
+    }
+    .log_btn{
+        padding: 5px;
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 90%;
+        color: #003360;
+        background-color: rgb(134, 212, 255);
+        border: 1px solid white;
+
+    }
+    .log_btn:hover{
+        background-color: transparent;
+        color: white;
+    }
+    .link{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .link:hover{
+        color: #003360;
+    }
+    .table{
+        border-radius: 10px
+    }
+    .list_btn{
+        text-decoration: none;
+        color: black;
+    }
+    .list_btn:hover{
+        color: #0088ff;
+    }

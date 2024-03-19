@@ -1,0 +1,19 @@
+<nav class="navber">
+  <h6>Files</h6>
+  
+  
+    <div class="context">
+
+
+   <% if user_signed_in? %>
+   <%= link_to "Home",  root_path, class:"a"%>
+   <%= link_to "Add", new_resume_path, class:"a" %>
+   <%= link_to 'Logout', destroy_user_session_path, method: :delete, data: { turbolinks: false }, class:"a" %>
+<% else %>
+  <%= link_to 'Login', new_user_session_path,class:"a" %>
+<% end %>
+
+          
+    </div>
+ 
+</nav>

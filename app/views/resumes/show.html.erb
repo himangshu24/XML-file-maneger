@@ -1,0 +1,11 @@
+<p style="color: white"><%= notice %></p>
+
+<%= render @resume %>
+
+<div class="btn_s">
+
+  <%= link_to "Edit", edit_resume_path(@resume), class:"btn" %>
+  <%= button_to "Delete", @resume, method: :delete , class:"btn"%>
+  <%= link_to "Back", resumes_path , class:"btn"%>
+
+</div>
